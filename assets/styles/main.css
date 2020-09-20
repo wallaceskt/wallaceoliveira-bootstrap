@@ -24,7 +24,7 @@
 }
 
 body {
-    background-image: url("../imagens/layout/bg_site.gif");
+    background-image: url("../images/layout/bg_site.gif");
     font-family: var(--font-family-content);
     font-weight: 200;
     color: var(--color-primary);
@@ -51,9 +51,15 @@ h4,
 h5,
 h6 {
     font-family: var(--font-family-title);
+    font-size: 1.5rem;
     color: var(--color-title);
     text-shadow: 0 1px 0 var(--color-border-light);
     display: flex;
+    margin-bottom: 1rem;
+}
+
+h1 {
+    margin-bottom: 2rem;
 }
 
 h2 {

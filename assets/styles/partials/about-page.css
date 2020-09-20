@@ -1,0 +1,18 @@
+.article-wrap {
+    border-top: 1px solid var(--color-border);
+    border-bottom: 1px solid var(--color-border);
+    background-color: var(--color-background-transparent);
+    box-shadow: 0px 1px 0px 0px var(--color-border-light);
+}
+
+section article .img {
+    right: 0;
+}
+
+section article img {
+    width: 300px;
+    margin-left: 20px;
+    float: right;
+    border-radius: 50%;
+    border: 5px solid var(--color-background);
+}
