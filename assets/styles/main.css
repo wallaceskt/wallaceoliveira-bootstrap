@@ -1,0 +1,81 @@
+:root {
+    --color-border-dark: #4D5151;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+
+    --color-background: #4D5151;
+    --color-title: #4D5151;
+    --color-primary: #FFF;
+    --color-secondary: #4D5151;
+    --color-border: #4D5151;
+    --color-shadow-dark: #4D5151;
+    --color-shadow-light: #FFF;
+    --color-border-dark: rgba(77, 81, 81, 0.5);
+    --color-border-light: rgba(255, 255, 255, 0.5);
+    --color-border-icon-light: rgb(215, 215, 215);
+    --color-background-transparent: rgba(77, 81, 81, 0.2);
+    --color-background-button-submit: #007bff;
+    --color-background-button-submit-hover: #0069d9;
+    --color-background-button-reset: rgba(77, 81, 81, 0.2);
+    --color-background-button-reset-hover: rgba(77, 81, 81, 0.5);
+
+    font-size: 100%;
+    --font-family-title: 'Roboto', sans-serif;
+    --font-family-content: 'Montserrat', sans-serif;
+}
+
+body {
+    background-image: url("../imagens/layout/bg_site.gif");
+    font-family: var(--font-family-content);
+    font-weight: 200;
+    color: var(--color-primary);
+    text-shadow: 0 1px 0 var(--color-border-dark);
+}
+
+a,
+button {
+    font-family: var(--font-family-content);
+}
+
+a,
+a::before,
+a::after,
+a:hover {
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--font-family-title);
+    color: var(--color-title);
+    text-shadow: 0 1px 0 var(--color-border-light);
+    display: flex;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h1 span.h-icon,
+h2 span.h-icon,
+h3 span.h-icon,
+h4 span.h-icon,
+h5 span.h-icon,
+h6 span.h-icon {
+    width: 6px;
+    height: auto;
+    background-color: var(--color-background);
+    border-bottom: 1px solid var(--color-border-icon-light);
+    margin: 4px 10px 4px 0;
+}
+
+.wrapper {
+    box-shadow: 0px 0px 10px 5px var(--color-border-dark);
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
+    padding-bottom: 1.25rem;
+}

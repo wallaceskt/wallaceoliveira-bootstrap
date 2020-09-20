@@ -1,0 +1,44 @@
+header {
+    height: 8rem;
+}
+
+header .logo,
+header .menu {
+    display: flex;
+    align-items: center;
+}
+
+header .menu {
+    justify-content: flex-end;
+}
+
+header .logo img {
+    width: 210px;
+}
+
+header nav .nav {
+    border-top: 1px solid var(--color-border);
+    border-bottom: 1px solid var(--color-border);
+    background-color: var(--color-background-transparent);
+    box-shadow: 0px 1px 0px 0px var(--color-border-light);
+}
+
+header nav .nav li {
+    list-style: none;
+    display: inline-flex;
+    text-align: center;
+}
+
+header nav .nav li a {
+    line-height: 1.2;
+    font-weight: 700;
+    color: var(--color-primary);
+    text-shadow: 0 1px 0 var(--color-border-dark);
+    transition: 0.2s;
+}
+
+header nav .nav li a:hover {
+    color: var(--color-secondary);
+    text-shadow: 0 1px 0 var(--color-border-light);
+    background: linear-gradient(180deg, var(--color-border-light), var(--color-border-dark));
+}
