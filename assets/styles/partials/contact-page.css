@@ -1,0 +1,7 @@
+.contact-wrap,
+.article-wrap {
+    border-top: 1px solid var(--color-border);
+    border-bottom: 1px solid var(--color-border);
+    background-color: var(--color-background-transparent);
+    box-shadow: 0px 1px 0px 0px var(--color-border-light);
+}
